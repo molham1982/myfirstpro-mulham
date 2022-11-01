@@ -341,7 +341,19 @@ menu.onclick = () => {
   menu.style.cursor="pointer"
   mainmenu.classList.toggle(`active`)
   container1.classList.toggle(`active1`)
-  
+  if(mainmenu.classList.contains(`active`)){
+    mainmenu.style.display="block"
+    setTimeout(() => {
+      mainmenu.style.transform="translate(0vw)"
+      
+    }, 200);
+  } else {
+    mainmenu.style.transform="translate(50vw)"
+    setTimeout(() => {
+      
+      mainmenu.style.display="none"
+    }, 400);
+  }
   side.forEach(element => {
     if (container1.classList.contains(`active1`)) {
       element.style.width="45%"

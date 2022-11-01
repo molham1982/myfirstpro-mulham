@@ -835,10 +835,10 @@ margin-left: -10px;
 
 }
 
-.active{
+/* .active{
   display: block;
 transform:translate(0vw);
-}
+} */
 .active1{
   width: 65%;
   margin-left: 20px;
