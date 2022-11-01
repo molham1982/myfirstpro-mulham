@@ -220,6 +220,28 @@ padding: 4px 0;
   .container1{
     display: flex;flex-direction: column;
   }
+  /*......login......*/
+  .container{
+    width: 55% ;
+  }
+ #iconcloselogin{
+  font-size: 16px;
+ }
+  input[type=text],
+  input[type=password]{
+    font-size: 12px;padding: 10px;
+  
+  }
+    .parent label{
+      font-size: 12px;
+    }
+    .registerbtn{
+      width: 35%;
+      font-size: 12px;
+      padding-left:13px;
+      height: 35px;
+      line-height: 3px;
+    }
   aside li {
     height: 36px;
     display: flex;
@@ -271,6 +293,25 @@ padding: 4px 0;
     left: 29% !important;
     width: 65% !important;
       }
+      /*......login......*/
+  .container{
+    width: 55% ;
+  }
+  input[type=text],
+input[type=password]{
+  font-size: 12px;padding: 7px;
+
+}
+  .parent label{
+    font-size: 12px;
+  }
+  .registerbtn{
+    width: 35%;
+    font-size: 12px;
+    padding-left:13px;
+    height: 30px;
+    line-height: 3px;
+  }
 }
 @media(max-width:600px){
   .select-buy a{width:80%;
@@ -293,6 +334,25 @@ padding: 4px 0;
     justify-content: center;
     align-items: flex-start;
 }
+      /*......login......*/
+      .container{
+        width: 65% ;
+      }
+      input[type=text],
+    input[type=password]{
+      font-size: 12px;padding: 7px;
+    
+    }
+      .parent label{
+        font-size: 12px;
+      }
+      .registerbtn{
+        width: 35%;
+        font-size: 12px;
+        padding-left:13px;
+        height: 20px;
+        line-height: 3px;
+      }
 }
 
 @media(max-width:400px){
@@ -306,4 +366,28 @@ padding: 4px 0;
     width: 45% !important;
     top: 59px;
       }
+            /*......login......*/
+  .container{
+    width: 75% ;
+  }
+  input[type=text],
+input[type=password]{
+  font-size: 12px;padding: 7px;
+
+}
+  .parent label{
+    font-size: 12px;
+  }
+  .registerbtn{
+    width: 35%;
+    font-size: 12px;
+    padding-left:13px;
+    height: 20px;
+    line-height: 3px;
+  }
+  #iconcloselogin{
+    font-size: 12px;
+    top: 5px;
+    right: 5px;
+   }
 }

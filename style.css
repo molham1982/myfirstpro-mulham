@@ -632,7 +632,7 @@ section{
   right: 0;
   left: 0;
   background-color: #567fa1;
-  /* opacity: 0; */
+  display: none;
   transform: translate(110vw);
   transition: all 1s linear;
 }
@@ -808,7 +808,7 @@ border-radius: 50%;
 }
 
 .main-menu{
-
+display: none;
   position: absolute;
   right: 0px;
   top: 0px;
@@ -836,6 +836,7 @@ margin-left: -10px;
 }
 
 .active{
+  display: block;
 transform:translate(0vw);
 }
 .active1{

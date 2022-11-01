@@ -174,12 +174,20 @@ const basket = document.getElementsByClassName("basket-bage")[0];
 
 //      open basket bage .......//
 basketBage.addEventListener("click", (eo) => {
-  basket.style.transform = "translate(0vw)"
+  basket.style.display = "block";
+  setTimeout(() => {
+    basket.style.transform = "translate(0vw)"
+    
+  }, 500);
 
 });
 //........... close basket bage ....//
 close.addEventListener("click", (eo) => {
   basket.style.transform = "translate(110vw)";
+  setTimeout(() => {
+    
+    basket.style.display = "none";
+  }, 1000);
 });
 basketitems.addEventListener("change", () => {
   myfun();
@@ -237,7 +245,7 @@ pressadd.addEventListener("click", (eo) => {
     );
 
     
-    // basket.style.transform="translate(0vw)"
+    
     const item = basketitems.getElementsByClassName("item")[0];
     item.innerHTML += `
     
