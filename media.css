@@ -1,0 +1,309 @@
+@media(max-width:850px){
+.top-header{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.flex{
+  width: 100%;
+}
+.down-header{
+  height: 210px;
+  cursor: pointer;
+  display: flex;
+  background-color: #143c5c;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+
+}
+.down-header div{
+width: 30%;
+/* border: 1px solid red; */
+position:relative ;
+left: -190px;
+padding: 4px 0;
+}
+.electronics-drop{
+  left: 110px;
+  top: 0px;
+  background-color: aliceblue;
+  
+}
+.electronics-drop li a{
+  color: black;
+  
+}
+.electronics-drop{
+  left: 110px;
+  top: 0px;
+  background-color: aliceblue;
+  
+}
+.electronics-drop li a{
+  color: black;
+  
+}
+.health-drop{
+  left: 110px;
+  top: 0px;
+  background-color: aliceblue;
+  
+}
+.health-drop li a{
+  color: black;
+  
+}
+.makeup-drop{
+  left: 110px;
+  top: 0px;
+  background-color: aliceblue;
+  
+}
+.makeup-drop li a{
+  color: black;
+  
+}
+.for-men-drop{
+  left: 110px;
+  top: 0px;
+  background-color: aliceblue;
+  
+}
+.for-men-drop li a{
+  color: black;
+  
+}
+.for-women-drop{
+  left: 110px;
+  top: 0px;
+  background-color: aliceblue;
+  
+}
+.for-women-drop li a{
+  color: black;
+  
+}
+.Children-drop{
+  left: 110px;
+  top: 0px;
+  background-color: aliceblue;
+  
+}
+.Children-drop li a{
+  color: black;
+  
+}
+.flex{
+  margin-bottom: 10px;
+}
+.flex div p{
+  margin-bottom: 10px;
+}
+}
+@media(max-width:550px){
+  .down-header div{
+    left: -120px;
+  }
+
+  .flex{
+    margin-bottom: 10px;
+  }
+  .flex div p{
+    margin-bottom: 10px;
+  }
+}
+@media(max-width:350px){
+  .down-header div{
+    left: -90px;
+  }
+  .flex{
+    margin-bottom: 10px;
+  }
+  .flex div p{
+    margin-bottom: 10px;
+  }
+}
+/*.........for login........*/
+@media (max-width:1000px) {
+  .registerbtn {
+    width: 40% !important;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+
+}
+@media (max-width:700px) {
+  .registerbtn {
+    width: 40% !important;
+    text-align: center;
+    font-size: 12px;
+    padding-left: 18px;
+  }
+}
+/*...............*/
+@media (max-width:900px) {
+  #validation {
+    width: 20% !important;
+    font-size: 1rem;font-size: 15px;
+  padding: 5px 0;
+    
+  }
+}
+
+
+
+@media(max-width:1100px){
+  aside{
+    width: 35%;
+  }
+  .price{
+  
+    width: 45%;
+    margin-left: 15px;font-size: 13px;
+  
+    }
+  .select-buy a{width: 79%;
+    font-size:13px ;padding: 7px 0;
+  }
+  .card{
+    width: 25% !important;
+  }
+  .innercardnumber{
+    padding-top: 10px;
+  }
+  aside li a {
+    width: 75%;
+    }
+  aside li a  .side{
+  left: 20% !important;
+    }
+ 
+}
+@media(max-width:1058px){
+  .innercardnumber{
+    padding-top: 25px ;
+
+  }
+
+
+  aside li a {
+    width: 75%;
+    }
+    aside li a  .side{
+      left: 20% !important;
+        }
+ 
+}
+@media (max-width:900px) {
+  .val h3 {
+    width: 30% !important;
+    font-size: 1rem;font-size: 15px;
+  padding: 10px 0;
+  }
+  aside li a  .side{
+    left: 20% !important;
+      }
+}
+
+@media (max-width:940px) {
+  aside ul li {
+    width: 240px;
+  }
+  aside li a  .side{
+    left: 20% !important;
+      }
+}
+@media (max-width:900px) {
+  .container1{
+    display: flex;flex-direction: column;
+  }
+  aside li {
+    height: 36px;
+    display: flex;
+    width: 200px;
+}
+  aside{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.row {
+  margin: auto;
+}
+
+.card{
+  width: 35% !important;
+}
+.price{
+  
+  width: 40%;
+  margin-left: 40px;
+
+  }
+  .select-buy a{width:80%;
+    font-size:14px ;padding: 7px 0;margin-left: 20px;
+  }
+  .select-buy p{
+    margin-left: 60px
+
+  }
+  .side {
+    width: 20%;
+    height: 350px;
+  }
+
+}
+@media(max-width:750px){
+  .select-buy a{
+    margin-right: 0;
+  }
+  .select-buy p{
+    margin-left: 15px;
+
+  }
+  .innercardnumber{
+    height: 135px !important;
+  }
+  aside li a  .side{
+    left: 29% !important;
+    width: 65% !important;
+      }
+}
+@media(max-width:600px){
+  .select-buy a{width:80%;
+    font-size:12px ;padding: 8px 0;
+  }
+  .card{display: flex;flex-wrap: wrap;
+    width: 50% !important;
+  }
+  .select-buy p{
+    margin-left: 70px;
+
+  }
+  .details {
+  
+    width: 100px;
+    margin: 0 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: flex-start;
+}
+}
+
+@media(max-width:400px){
+
+  .select-buy p{
+    margin-left: 10px;
+
+  }
+  aside li a  .side{
+    left: 49% !important;
+    width: 45% !important;
+    top: 59px;
+      }
+}
